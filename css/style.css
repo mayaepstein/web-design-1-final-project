@@ -22,6 +22,8 @@ img {
 
 .wrapper {
     max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .logos {
@@ -44,6 +46,40 @@ nav ul li {
     padding: 1.5em;
 }
 
-.services {
-    background-color: blue;
+.work-grid {
+    
+    display: grid;
+
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.one {
+    grid-column: 1 / span 3;
+}
+
+.two {
+    grid-column: 4 / span 3;
+}
+
+.three {
+    grid-column: 1 / span 2;
+}
+
+.four {
+    grid-column: 3 / span 2;
+}
+
+.five {
+    grid-column: 5 / span 2;
+}
+
+#testimony {
+    background-color: #0e1215;
+    color: white;
+}
+
+.quotes {
+    display: flex;
+    justify-content: center;
 }
