@@ -116,15 +116,31 @@ nav ul li {
     display: flex;
 }
 
+.link {
+    margin-top: auto;
+}
+
 article {
     background-color: white;
     padding: 2em;
     margin: 1em;
+    border-radius: 4px;
+    border-style: solid;
+    border-color: #efefef;
+    width: 20em;
+}
+
+article p {
+    padding-bottom: 20px;
 }
 
 .quotes {
     display: flex;
     justify-content: center;
+}
+
+.link {
+    text-align: left;
 }
 
 .link:link,
@@ -144,4 +160,9 @@ text-decoration-line: none;
 color: black;
 border-radius: 3px;
 border-style: solid;
+}
+
+.about-flex div h1,
+.about-flex div h2 {
+    text-align: left;
 }
