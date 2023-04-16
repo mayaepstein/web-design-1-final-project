@@ -44,8 +44,8 @@ h2 {
 header {
     background-color: #0e1215;
     color: white;
-    margin-top: none;
-    padding-top: none;
+    margin-top: 0;
+    padding-top: 0;
 }
 
 .about-flex {
@@ -62,16 +62,38 @@ footer p {
     color: white;
 }
 
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    max-width: 1280px;
+}
+
 nav ul {
     display: flex;
-    justify-content: flex-end;
-
     list-style-type: none;
+}
+
+.name {
+    font-size: 1.5em;
 }
 
 nav ul li {
     padding: 1.5em;
 }
+
+.nav-link:link,
+.nav-link:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: #afaead;
+}
+
 
 .work-grid {
     
@@ -103,6 +125,9 @@ nav ul li {
 
 #work p {
     text-align: center;
+    max-width: 640px;
+    margin: auto;
+    padding-bottom: 20px;
 }
 
 #testimony {
@@ -143,6 +168,7 @@ article p {
     display: flex;
     justify-content: center;
     width: auto;
+    margin: auto;
 }
 
 blockquote {
@@ -188,4 +214,30 @@ border-style: solid;
 .about-flex div h1,
 .about-flex div h2 {
     text-align: left;
+}
+
+.logos ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logos ul li {
+    list-style-type: none;
+}
+
+.logos ul li img{
+    width: 50px;
+    padding: 10px;
+}
+
+#contact div div p {
+    text-align: center;
+    max-width: 640px;
+    margin: auto;
+}
+
+.logos {
+    margin: auto;
+    padding-top: 20px;
 }
