@@ -53,6 +53,10 @@ header {
     align-items: center;
 }
 
+.about-flex div p{
+    padding-bottom: 10px;
+}
+
 footer {
    background-color: #0e1215;
 }
@@ -66,16 +70,18 @@ footer p {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 20px;
-    max-width: 1280px;
+    padding-top: 10px;
 }
 
 nav ul {
     display: flex;
     list-style-type: none;
+    margin-right: 60px;
 }
 
 .name {
+    margin-left: auto;
+    margin: 0px 0px 0px 60px;
     font-size: 1.5em;
 }
 
@@ -185,7 +191,7 @@ blockquote {
 
 .q1,
 .q2 {
-    padding: 0px 40px;
+    padding: 0px 60px;
 }
 
 .link {
